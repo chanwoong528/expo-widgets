@@ -1,4 +1,4 @@
-import { ConfigPlugin } from "expo/config-plugins"
+import { ConfigPlugin } from "@expo/config-plugins"
 import { WithExpoIOSWidgetsProps } from ".."
 import { withLiveActivities } from "./withLiveActivities"
 import { withAppExtensions } from "./withAppExtensions"

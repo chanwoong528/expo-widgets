@@ -46,5 +46,6 @@ import { AndroidWidgetProjectSettings, WithExpoAndroidWidgetsProps } from "..";
   }
 
   function buildWidgetsReceivers(options: WithExpoAndroidWidgetsProps) {
+    
     return options.widgets.map(op => buildWidgetReceiver(op));
   }

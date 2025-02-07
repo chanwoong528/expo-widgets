@@ -1,4 +1,4 @@
-import { ConfigPlugin } from "expo/config-plugins"
+import { ConfigPlugin } from "@expo/config-plugins"
 import { getBundleIdentifier } from "./withWidgetXCode"
 import { getPushNotificationsMode } from "./xcode/withEntitlements"
 import { WithExpoIOSWidgetsProps } from ".."

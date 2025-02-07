@@ -1,5 +1,5 @@
 import { mergeContents } from "@expo/config-plugins/build/utils/generateCode"
-import { ExportedConfigWithProps, XcodeProject, } from "expo/config-plugins"
+import { ExportedConfigWithProps, XcodeProject, } from "@expo/config-plugins"
 import * as fs from "fs"
 import * as path from "path"
 import { Logging } from "../utils/logger"

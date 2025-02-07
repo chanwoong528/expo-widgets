@@ -1,4 +1,4 @@
-import { XcodeProject } from "expo/config-plugins"
+import { XcodeProject } from "@expo/config-plugins"
 
 export const addFrameworksToWidgetProject = (project: XcodeProject, target: { uuid: string }) => {
     const frameworks = ['WidgetKit.framework', 'SwiftUI.framework']

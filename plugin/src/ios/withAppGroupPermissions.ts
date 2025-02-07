@@ -1,4 +1,4 @@
-import { ConfigPlugin, withEntitlementsPlist } from "expo/config-plugins";
+import { ConfigPlugin, withEntitlementsPlist } from "@expo/config-plugins";
 import { WithExpoIOSWidgetsProps } from "..";
 import { Logging } from "../utils/logger";
 import { ExpoConfig } from "@expo/config-types";

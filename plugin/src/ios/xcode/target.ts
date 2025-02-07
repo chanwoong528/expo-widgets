@@ -1,4 +1,4 @@
-import { IOSConfig, XcodeProject } from "expo/config-plugins"
+import { IOSConfig, XcodeProject } from "@expo/config-plugins"
 import { ExpoConfig } from "@expo/config-types"
 import { WithExpoIOSWidgetsProps } from "../.."
 

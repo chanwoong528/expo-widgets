@@ -12,6 +12,7 @@ export const withModule: ConfigPlugin<WithExpoAndroidWidgetsProps> = (
     return withDangerousMod(config, [
         "android",
         async newConfig => {
+            
             const { modRequest } = newConfig;
 
             const projectRoot = modRequest.projectRoot;            
@@ -24,7 +25,8 @@ export const withModule: ConfigPlugin<WithExpoAndroidWidgetsProps> = (
             }
 
             const packageNameAsPath = packageName?.replace(/\./g, "/");
-            const moduleSourcePath = path.join(widgetFolderPath, 'src/main/java/package_name/ExpoWidgetsModule.kt');
+            // const moduleSourcePath = path.join(widgetFolderPath, 'src/main/java/package_name/ExpoWidgetsModule.kt');
+            const moduleSourcePath = path.join(widgetFolderPath, 'src/main/java/abc/ExpoWidgetsModule.kt');
             const moduleDestinationPath = path.join(
                 projectRoot, 
                 'android/src/main/java', 
